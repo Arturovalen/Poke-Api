@@ -1,0 +1,21 @@
+.form__total{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form__input {
+    padding: 10px 20px;
+    box-shadow: -1px 1px 10px #0004;
+    font-size: 1.2rem;
+    height: 30px;
+    width: fit-content;
+}
+.form__button {
+    padding: 10px 20px;
+    color: var(--color-white);
+    background-color: var(--color-red);
+    box-shadow: -1px 1px 10px #0004;
+    cursor: pointer;
+    height: 30px;
+}
